@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Ara2.AraTable</id>
+        <version>$version$</version>
+        <title>Ara2.AraTable</title>
+        <authors>rafaelleonel</authors>
+        <owners>rafaelleonel</owners>
+        <licenseUrl>http://www.araframework.com.br/license</licenseUrl>
+        <projectUrl>http://www.araframework.com.br</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Componente do AraFramework</description>
+        <copyright>Copyright ©  2016</copyright>
+        <language>pt-BR</language>
+        <dependencies>
+            <dependency id="Ara2" version="1.2.6" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Ara2\Components\AraTable\AraTable.js" target="content\Ara2\Components\AraTable\AraTable.js" />
+        <file src="..\Ara2\Components\AraTable\CREDITS.md" target="content\Ara2\Components\AraTable\CREDITS.md" />
+        <file src="..\Ara2\Components\AraTable\LICENSE.md" target="content\Ara2\Components\AraTable\LICENSE.md" />
+        <file src="..\Ara2\Components\AraTable\td\AraTableTd.js" target="content\Ara2\Components\AraTable\td\AraTableTd.js" />
+        <file src="..\Ara2\Components\AraTable\tr\AraTableTr.js" target="content\Ara2\Components\AraTable\tr\AraTableTr.js" />
+        <file src="..\bin\Release\Ara2.AraTable.dll" target="lib\net40\Ara2.AraTable.dll" />
+    </files>
+</package>
